@@ -1,0 +1,184 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Karma', serif;
+}
+
+hr {
+    bottom: none;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 16px;
+    opacity: 0.3;
+}
+
+p {
+    margin: 15px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+h1{
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+h2{
+    background-color: #ccc;
+}
+
+.col {
+    float: left;
+    padding: 0px 8px;
+}
+
+.col-four {
+    width: calc(100% / 4);
+}
+
+.txt-center {
+    text-align: center !important;
+}
+
+.btn-select {
+    background-color: #000;
+    color: #fff;
+}
+
+.padding-8-16 {
+    padding: 8px 16px;
+}
+
+/* Header */
+
+header{
+    padding: 0px 144px;
+    display: flex;
+    width: 100%;
+    height: 64px;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #ccc;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+
+.menu{
+    padding: 8px 16px;
+}
+
+.menu:hover {
+    background-color: rosybrown;
+}
+
+.menu__icon{
+    font-size: 24px;
+}
+.title{
+    margin: 16px;
+}
+.title__header{
+    font-weight: 400;
+}
+.contact{
+    margin: 16px;
+}
+
+.contact__header{
+    font-weight: 400;
+}
+
+
+/* Body */
+
+#content {
+    padding: 0px 144px;
+}
+
+.main-content{
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.list-food-group{
+    padding: 0 16px;
+    margin: 8px 16px;
+    height: 420px;
+}
+.food__section{
+    text-align: center;
+    line-height: 1.5;
+    overflow: hidden;
+}
+
+.food-img{
+    width: 100%;
+}
+
+.food__desc{
+    margin: 15px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.pagination {
+    padding: 32px;
+    display: block;
+}
+
+.page-item {
+    width: auto;
+    text-decoration: none;
+    outline: 0;
+    border: none;
+}
+
+.page-item:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-select:hover{
+    background-color: #ccc;
+    color: #000;
+}
+ 
+.about{
+    height: auto;
+    text-align: center;
+    padding: 32px 16px;
+    overflow: hidden;
+}
+
+.about__header{
+    font-size: 24px;
+}
+.about__img{
+    margin-top: 32px;
+    max-width: 100%;
+}
+.content{
+    margin-top: 32px;
+}
+.content__header{
+    font-weight: 600;
+}
+.content__sub-header{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+footer{
+    text-align: center;
+}
